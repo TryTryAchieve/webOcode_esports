@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     margin: 0;padding: 0;
 }
 body{
     background-color: rgb(65, 199, 132);
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+.colour{
+    color: lightgreen;
+}
+.grey{
+    padding-top: 5px;
+    color: rgb(43, 48, 49);
+    font-size: 35px;
+}
+.blue{
+    font-size: 25px;
+    color: blue;
 }
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.align{
+    text-align: center;
 }
 .logo{
     position: absolute;
@@ -39,4 +58,136 @@ nav ul li a{
 .subhead{
     font-size: 25px;
     z-index: 1;
+}
+.slider{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    animation: slider linear 20s infinite;
+}
+.second{
+    padding: 5vw;
+    display: flex;
+    flex-direction:row;
+}
+.text{
+    background-color: rgb(97, 106, 108);
+    margin-right: 5vw;
+    padding: 5vw;
+    flex-direction: column;
+    font-size: 20px;
+}
+.bigger{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+ul li{
+    text-decoration: none;
+    color: rgb(0, 8, 10);
+    padding: 10px;
+    list-style: none;
+}
+.team{
+    width: 30vw;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+}
+.tut-link{
+    width:20vw ;
+    background-color: royalblue;
+    margin-left:5vw ;
+    margin-right: 5vw;
+    padding: 5vw;
+    font-size: larger;
+    margin-bottom: 5vw;
+}
+.tut-link ul li a{
+    text-decoration: none;
+    color: seashell;
+}
+.tut-link ul li a:hover{
+    font-size: large;
+}
+.owl{
+    width:20vw ;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+.fake{
+    color: rgb(156, 227, 255);
+}
+.form{
+    padding: 50px;
+    background-color: rgb(156, 227, 255);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+}
+.label{
+    padding: 20px;
+}
+.labelitem{
+    padding:10px;
+    font-size: 25px;
+}
+.inputbox{
+    height: 20px;
+    margin: 5px;
+    width: 55vw;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: tomato;
+    color: aliceblue;
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+.btn:hover{
+    width: 102px;
+    height: 51px;
+}
+.items{
+    padding: 15px;
+    font-size: 18px;
+}
+.logo2{
+    height: 50px;
+    border-radius: 100%;
+}
+.logo2:hover{
+    height: 60px;
+    border-radius: 100%;
+}
+.contact{
+    flex-direction: row;
+}
+.margin{
+    margin: 10vw;
+}
+.margin ul li{
+    list-style: none;
+}
+.item2{
+    padding: 10px;
+    font-size: 18px;
+}
+.foot{
+    display:flex;
+    flex-direction: row;
+    height: 30vh;
+    color:black ;
+    background-color:rgb(129, 255, 192);
+
+}
+.last{
+    height: 10vh;
+    color: white;
+    margin-top: 2px;
+    background-color: #247ebf;
 }
