@@ -1,0 +1,23 @@
+.first{
+    background-color: yellow;
+    padding: 4vw;
+}
+.first ul li a{
+    text-decoration: none;
+    color: brown;
+}
+.picsize{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.row{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.margin{
+    margin:2vh;
+}
