@@ -1,0 +1,42 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: rgb(65, 199, 132);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    right: 10vw;
+    height: 200px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5vw
+}
+.navbar{
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+.navcont{
+    width:70vw
+}
+.heading{
+    height: 150px;
+    font-size: 40px;
+}
+.subhead{
+    font-size: 25px;
+    z-index: 1;
+}
