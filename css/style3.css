@@ -1,7 +1,11 @@
+body{
+    background-image: url("/img/bg4final.jpg");
+}
 .first{
     padding: 5vw;
     display: flex;
     flex-direction: row;
+    background-color: #65f0c1;
 }
 .column{
     flex-direction: column;
@@ -30,4 +34,39 @@
 }
 .inputbox1{
     padding-left:10px;
+}
+@media (max-width:1150px) {
+    .first{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .head{
+        height: auto;
+    }
+    .image{
+        margin-bottom: 50px;
+        width: 82vw;
+    }
+    .inputbox{
+        margin-right: 50px;
+    }
+    .dropdown1{
+        margin-right: 50px;
+    }
+}
+@media (max-width:700px) {
+    .inputbox{
+        width: 200px;
+    }
+    .label{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .second{
+        padding-left: 5px;
+    }
 }
