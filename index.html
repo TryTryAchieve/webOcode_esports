@@ -6,39 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resp.css">
+    <link rel="shortcut icon" type="image/png" href="img/android-chrome-512x512.png">
     <title>ConsoleMax</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="navcont center">
-                <ul>
-                    <li><a href="#">Home</a> </li>
+        <nav class="navbar navbar1">
+            <div class="navcont center visi">
+                <ul class="column1">
+                    <li><a href="index.html">Home</a> </li>
                     <li><a href="event.html">Events</a></li>
                     <li><a href="membership.html">Membership</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#tutorials">Tutorials</a></li>
                 </ul>
             </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
             <div>
                 <img class="logo" src="img/logo2.png" alt="logo">
             </div>
         </nav>
     </header>
-    <div class="heading center">
-        ConsoleMax<span class="subhead">.com</span>
+    <div class="center">
+        <span class="heading center bg"> ConsoleMax<span class="subhead">.com</span></span>
     </div>
     <main>
-        <div class="first">
-            <div class="slider">
-                <img src="https://source.unsplash.com//600x400/?esport">
-                <img src="https://source.unsplash.com//600x400/?console">
-                <img src="https://source.unsplash.com//600x400/?medals">
-                <img src="https://source.unsplash.com//600x400/?game">
+        <div class="first center bg">
+            <div>
+                <img class="slider" name="slider" src="" alt="img">
             </div>
         </div>
-        <div class="second">
+        <div class="second center bg">
             <div class="text center">
                 <span class="bigger">
                     learn gaming from professions
@@ -52,9 +56,9 @@
                             wararea</span> and many more</li>
                 </ul>
             </div>
-            <div>
+            <div class="resp">
                 <img class="team" src="img/second.jpg" alt="accessories">
-                <div class="grey center">
+                <div class="grey center white">
                     take your desire forward..
                 </div>
             </div>
@@ -79,19 +83,20 @@
             </div>
             <div class="achieve">
                 <ul>
+                    <li class="blue">ACHIEVEMENTS</li>
                     <li>Team <span class="grey">2nd</span>in All Asia GARENA GAMES</li>
                     <li>Individual <span class="grey">Man Of The Tournament</span>in All Asia Garena Games</li>
                     <li>Our Team <span class="grey">won</span> the Toronto championship</li>
                     <li>Our Team was <span class="grey">WorldGaming Arena finalist</span></li>
                 </ul>
             </div>
-            <div>
+            <div class="center">
                 <img class="owl" src="img/console.png" alt="owl">
             </div>
         </div>
         <div class="form center">
-            <span class="grey">LuckyDraw Form <span class="blue">chances to win platinum membership</span></span>
-            <div class="label">
+            <span class="grey m3">LuckyDraw Form <span class="blue">chances to win platinum membership</span></span>
+            <div class="label visibility">
                 <label class="labelitem" for="name">Name</label>
                 <label class="labelitem" for="city">City</label>
                 <label class="labelitem" for="email">Email</label>
@@ -148,5 +153,6 @@
         </div>
     </footer>
 </body>
+<script src="js/home.js"></script>
 
 </html>
