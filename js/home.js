@@ -27,3 +27,10 @@ burger.addEventListener('click',()=>{
     navbar.classList.toggle('navbar');
 
 })
+btn=document.querySelector('.btn')
+btn.addEventListener('click',()=>{
+    let result=confirm('Press OK to submit form');
+    if(result=true){
+        alert('Your response has been recorded');
+    }
+})
