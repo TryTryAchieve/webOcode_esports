@@ -1,6 +1,10 @@
+body{
+    background-image: url("/img/bg4final.jpg");
+}
 .first{
-    background-color: yellow;
+    background-color: turquoise;
     padding: 4vw;
+    margin: 2vw;
 }
 .first ul li a{
     text-decoration: none;
@@ -20,4 +24,17 @@
 }
 .margin{
     margin:2vh;
+}
+@media (max-width:950px) {
+    .resp{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .resp2{
+        display: flex;
+        flex-direction: column;
+    }
+    .picsize{
+        width: 65vw;
+    }
 }
