@@ -7,31 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/resp.css">
+    <link rel="shortcut icon" type="image/png" href="img/android-chrome-512x512.png">
     <title>Membership at ConsoleMax</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="navcont center">
-                <ul>
+        <nav class="navbar navbar1">
+            <div class="navcont center visi">
+                <ul class="column1">
                     <li><a href="index.html">Home</a> </li>
                     <li><a href="event.html">Events</a></li>
                     <li><a href="membership.html">Membership</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#tutorials">Tutorials</a></li>
+                    <li><a href="index.html#tutorials">Tutorials</a></li>
                 </ul>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
             <div>
                 <img class="logo" src="img/logo2.png" alt="logo">
             </div>
         </nav>
     </header>
-    <div class="heading center">
+    <div class="heading center bg">
         ConsoleMax<span class="subhead">.com</span>
     </div>
     <main>
-        <div class="first center">
+        <div class="first center align">
             <div>
                 <span class="blue">Different Memberships</span>
                 <ul class="center column">
@@ -68,22 +75,22 @@
                     </li>
                 </ul>
             </div>
-            <div>
-                <span class="grey heading">play together, grow together</span>
-                <img class="image" src="img/gamers.jpg" alt="gamer">
+            <div class="column">
+                <span class="grey head">play together, grow together</span>
+                <img class="image center" src="img/gamers.jpg" alt="gamer">
             </div>
         </div>
-        <span class="grey m2">
+        <span class="grey m2 white">
             Membership Form
         </span>
-        <div class="second">
+        <div class="second white">
             <form class="form1">
                 <div class="label">
                     <label class="labelitem" for="name">Name</label>
                     <label class="labelitem" for="city">City</label>
                     <label class="labelitem" for="interests">Gaming Interests</label>
-                    <label class="labelitem" for="stream">Stream</label>
-                    <label class="labelitem" for="stream">age</label>
+                    <label class="labelitem" for="membership">Membership</label>
+                    <label class="labelitem" for="age">age</label>
 
                     
                 </div>
@@ -91,11 +98,12 @@
                     <input type="text" name="name" class="labelitem inputbox" placeholder="Full Name">
                     <input type="text" name="city" class="labelitem inputbox" placeholder="City Name">
                     <input type="text" name="email" class="labelitem inputbox" placeholder="Email address">
-                    <select class="labelitem labelitem2" name="stream" id="stream">
-                        <option value="no val">Select stream</option>
-                        <option value="science">Science</option>
-                        <option value="commerce">Commerce</option>
-                        <option value="humanities">Humanities</option>
+                    <select class="labelitem labelitem2 dropdown1" name="stream" id="stream">
+                        <option value="no val">Select Membership</option>
+                        <option value="science">Lifetime</option>
+                        <option value="commerce">Platinum</option>
+                        <option value="humanities">Gold</option>
+                        <option value="humanities">Silver</option>
                     </select>
                     <div>
                         <select class="dob" name="stream" id="stream">
@@ -131,6 +139,7 @@
                         <input class="dob inputbox1"type="text" name="year" placeholder="year">
 
                     </div>
+                    <button class="btn">submit</button>
                 </div>
             </form>
 
@@ -180,5 +189,6 @@
     </footer>
 
 </body>
+<script src="js/home.js"></script>
 
 </html>
