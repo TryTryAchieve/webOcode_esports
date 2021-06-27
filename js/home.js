@@ -3,7 +3,6 @@ var image=[];
 var t=3000;
 image[0]='./img/team.jpg';
 image[1]='./img/setup.jpg';
-image[2]='./img/gamers.jpg';
 function imgchange(){
     document.slider.src=image[i];
     if(i<image.length-1){
